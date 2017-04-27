@@ -2,6 +2,7 @@
   "name": "sample-app",
   "dependencies": {},
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
   }
 }
