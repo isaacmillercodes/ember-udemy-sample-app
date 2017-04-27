@@ -11,12 +11,14 @@ Router.map(function() {
   this.route('services');
   this.route('contact');
 
-  this.resource('posts', {path: '/posts'}, function() {
+  this.route('posts', {path: '/posts'}, function() {
     this.route('new');
     this.route('post', {path: ':post_id'});
   });
   this.route('events');
   this.route('post');
+  this.route('cars');
+  this.route('users');
 });
 
 export default Router;
