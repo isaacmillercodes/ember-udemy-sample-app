@@ -4,6 +4,15 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sample-app',
     environment: environment,
+    contentSecurityPolicy: {'connect-src': "'self' wss://*.firebaseio.com"},
+    firebase: {
+      apiKey: "AIzaSyA_0Ti5eRmS95FfU73B2iFiI_kiChxsjks",
+      authDomain: "udemy-ember.firebaseapp.com",
+      databaseURL: "https://udemy-ember.firebaseio.com",
+      projectId: "udemy-ember",
+      storageBucket: "udemy-ember.appspot.com",
+      messagingSenderId: "1092555895470"
+    },
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
