@@ -1,6 +1,9 @@
+{{#link-to 'cars.new'}}Create Car{{/link-to}}
+<hr>
+{{outlet}}
 <h1>Cars</h1>
 <ul>
   {{#each model as |car|}}
-    <li>{{car.year}} {{car.make}} {{car.model}}</li>
+    <li>{{car.year}} {{car.make}} {{car.model}} - {{#link-to 'cars.edit'}}Edit{{/link-to}}</li>
   {{/each}}
 </ul>
