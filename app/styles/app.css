@@ -2,3 +2,14 @@
   color: red;
   font-weight: bold;
 }
+
+.well {
+  background-color: #f4f4f4;
+  border: #cc 1px solid;
+  padding: 20px;
+  width: 500px;
+}
+
+.greeting-set {
+  background: #ccc;
+}

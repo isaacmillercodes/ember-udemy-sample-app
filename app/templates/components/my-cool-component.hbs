@@ -1,0 +1,8 @@
+<h1>{{title}} {{name}}</h1>
+{{yield}}
+{{#unless greetingSet}}
+  <button {{action 'greetUser' name}}>Greet User</button>
+{{/unless}}
+{{#if greetingSet}}
+  <h4>You've been greeted</h4>
+{{/if}}
